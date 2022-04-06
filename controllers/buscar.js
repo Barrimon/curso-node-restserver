@@ -74,7 +74,7 @@ const buscar = (req = request, res = response) => {
       msg: `La colecciones permitidas son: ${coleccionesPermitidas}`
     });
   }
-  console.log(coleccion);
+  
   switch (coleccion) {
     case 'categorias':
       buscarCategoria(termino,res);
